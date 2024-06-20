@@ -2,7 +2,7 @@
 export class Person {
 
     public name:        string;
-    private password:   string;
+    public password:   string;
 
     constructor(nombre: string, clave: string){
         this.name = nombre;
@@ -25,7 +25,7 @@ export class Person {
 
 export class Trabajo {
     constructor(
-        private salario: number, 
+        public salario: number, 
         public puesto: string, 
         public person: Person
         ){}

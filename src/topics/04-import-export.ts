@@ -17,3 +17,5 @@ console.log({juan});
 const tony = new Person('tony', '123');
 
 const tonyTrabajo = new Trabajo(1500,'desarrollador web', tony);
+
+console.log(tonyTrabajo);
