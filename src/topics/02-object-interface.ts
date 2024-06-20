@@ -1,7 +1,7 @@
 
 // interface -> descripcion del objeto, de que se compone 
 
-interface UsuarioInterface {
+export interface UsuarioInterface {
     email:          string,
     password:       string,
     edad:           number,
@@ -44,4 +44,4 @@ console.log({israel,
 });
 
 
-export{}
+//export{}
